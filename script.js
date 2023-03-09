@@ -5,12 +5,14 @@ function validaton()
     //alert(name+' '+address);
     if (name=='')
     {
-        alert('Name is required');
+        //alert('Name is required');
+        document.getElementById('nameErr').innerHTML="Name is required";
         document.getElementById('name').focus();
     }
     if (address=='')
     {
-        alert('Address is required');
+       // alert('Address is required');
+        document.getElementById('addressErr').innerHTML="address is required";
     }
 
 }
